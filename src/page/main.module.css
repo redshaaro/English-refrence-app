@@ -1,0 +1,14 @@
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 2rem;
+  height: 100%;
+}
+.title{
+  color:#F3FFFE;
+  font-size: 4rem;
+  
+}

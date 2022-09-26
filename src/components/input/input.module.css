@@ -1,0 +1,37 @@
+.inputContainer{
+    margin-top: 4rem;
+    height:100%;
+
+}
+.inputContainer form input{
+    background-color: transparent;
+    box-shadow: none;
+    border:none;
+    border-bottom: 1px solid #7C7F88;
+    width: 40vh;
+    color:white;
+    height:100%;
+
+}
+@media only screen and (min-width: 768px) {
+    .inputContainer form input{
+        width:100%;
+        
+    }
+    
+}
+.inputContainer form input:focus{
+    outline: none;
+    color:white;
+    width:100%;
+     
+
+}
+.inputContainer form input::placeholder{
+    font-size: 1rem;
+    height:100%;
+     
+     
+
+}
+
